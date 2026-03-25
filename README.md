@@ -58,15 +58,15 @@ Measures intra-track regularity, such as stable bounding-box behavior over time.
 ### Gated Consistency
 To avoid over-rewarding fragmented but locally smooth tracks, SCTQ uses:
 
-```math
+$$
 C_{\mathrm{eff}} = C \sqrt{PF}
-```
+$$
 
 ### Final Score
 
-```math
+$$
 \mathrm{SCTQ} = w_p P + w_d D + w_f F + w_c C_{\mathrm{eff}}
-```
+$$
 
 This gives a final annotation-free tracking quality score in `[0,1]`, where **higher is better**.
 
