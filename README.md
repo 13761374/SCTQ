@@ -60,7 +60,7 @@ To avoid over-rewarding fragmented but locally smooth tracks, SCTQ uses:
 
 ```math
 C_{\mathrm{eff}} = C \sqrt{PF}
-````
+```
 
 ### Final Score
 
